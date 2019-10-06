@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcolaMetà(int n)", "CalcolaMetà(int n)\CalcolaMetà(int n).csproj", "{3C977C6E-F4B8-4C94-B228-F5C5814451A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soluzione", "soluzione\soluzione.csproj", "{85AD62BB-4B94-405A-9348-0BCBBB3F2E91}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3C977C6E-F4B8-4C94-B228-F5C5814451A2} = {3C977C6E-F4B8-4C94-B228-F5C5814451A2}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C977C6E-F4B8-4C94-B228-F5C5814451A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C977C6E-F4B8-4C94-B228-F5C5814451A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C977C6E-F4B8-4C94-B228-F5C5814451A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C977C6E-F4B8-4C94-B228-F5C5814451A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85AD62BB-4B94-405A-9348-0BCBBB3F2E91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85AD62BB-4B94-405A-9348-0BCBBB3F2E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85AD62BB-4B94-405A-9348-0BCBBB3F2E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85AD62BB-4B94-405A-9348-0BCBBB3F2E91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31927847-68D1-45CB-B2EF-90743FFA7BA3}
+	EndGlobalSection
+EndGlobal
